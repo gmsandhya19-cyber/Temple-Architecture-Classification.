@@ -6,13 +6,14 @@ Research prototype: The supplied numeric model artifact records 43.3% cross-vali
 Preview Images
 Upload your preview images into an images directory and uncomment the following lines:
 <img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/a44dfd77-5a61-4cbd-8f4b-bf5764dac843" />
-<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/09f44ae2-ccb9-48fd-941e-07bd05b9f2b9" />
+
 Generated previews are design mockups. Use screenshots from the running application when documenting its exact appearance and measured behaviour.
 Overview
 Users can register, sign in, upload a temple photograph, inspect a predicted architecture style, compare photographs, revisit previous analyses, and generate PDF reports. A searchable reference directory provides temple information and source links.
 
 The frontend includes sample records for signed-out exploration. Those are demonstration content, not real account history or evidence of model performance. Real analysis, comparison, history, and report workflows require authentication.
 Features Found in the Source
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/09f44ae2-ccb9-48fd-941e-07bd05b9f2b9" />
 - Email/password registration and login.
 - bcrypt password hashing and JWT access tokens.
 - Logout with token revocation; password changes invalidate existing sessions.
